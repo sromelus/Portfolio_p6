@@ -15,8 +15,10 @@ app.get("/projects", (req, res) => {
   res.render('index', { projects })
 })
 
-app.get("/projects/1", (req, res) => {
-  res.render('project')
+app.get("/projects/:id", (req, res) => {
+  const project = projects.filter( project => project.id == req.params.id)
+  const name = 'james'
+  res.render('project', { project })
 })
 
 app.get("/about", (req, res) => {
