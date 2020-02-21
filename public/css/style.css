@@ -56,6 +56,11 @@ a:hover{
   line-height: 0;
 }
 
+.img-size {
+  width: 250;
+  height: 170;
+}
+
 .portfolio-me{
   padding: 20px;
   background: #121213;
