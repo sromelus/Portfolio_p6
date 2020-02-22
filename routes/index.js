@@ -13,8 +13,11 @@ router.get("/projects", (req, res) => {
 
 router.get("/projects/:id", (req, res) => {
   const project = projects.filter( project => project.id == req.params.id)
-  const name = 'james'
-  res.render('project', { project })
+  if (project.length > 0){
+    return res.render('project', { project })
+  } else {
+    res.redirect("/")
+  }
 })
 
 router.get("/about", (req, res) => {
