@@ -3,6 +3,9 @@ h1,h2,h3,h4,h5,p{
   font-family: 'Merriweather', serif;
 }
 
+/* background-image: url('https://media.istockphoto.com/vectors/abstract-molecular-connection-vector-id590158344'); */
+
+
   h5{
     font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     letter-spacing: 2.5px;
@@ -27,15 +30,16 @@ h1,h2,h3,h4,h5,p{
 }
 
 .text-light{
-  color: #666;
+  color: #111;
 }
+
 
 .button{
   background-color: #333;
 }
 
 .button:hover{
-  background-color: #111;
+  background-color: #a68;
 }
 
 a{

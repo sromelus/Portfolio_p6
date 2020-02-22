@@ -38,7 +38,7 @@
       "description": "In this project, I used the fetch api to request 12 random employee profiles asynchonusly from the (randomuser.com api) once the server send a response. I used JavaScript and DOM manipulation to render the employee data to the browser in card tile format.",
       "live_link": "https://sromelus.github.io/public-api-request-p5",
       "github_link": "https://github.com/sromelus/public-api-request-p5",
-      "image_urls": ["/images/projects-img/P5_API_request_550X550.png", "/images/projects-img/P5_API_request_1200X550.png", "/images/projects-img/P5_API_request0_1200X550.png","/images/projects-img/P5_API_request01_1200X550.png"]
+      "image_urls": ["/images/projects-img/P5_API_request_550X550.png", "/images/projects-img/P5_API_request01_1200X550.png", "/images/projects-img/P5_API_request0_1200X550.png","/images/projects-img/P5_API_request_1200X550.png"]
     }
   ]
 }

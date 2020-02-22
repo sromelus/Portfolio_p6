@@ -1,36 +1,22 @@
 const express = require('express');
-const {projects} = require('./data.json')
-
-
+// import index.js in routes folder
+const routes = require('./routes');
 const app = express();
 
 app.set("view engine", "pug")
 app.use('/static',express.static('public'));
 
-app.get("/", (req, res) => {
-  res.redirect('/projects')
-})
+//route to the home page `index.js`
+app.use(routes)
 
-app.get("/projects", (req, res) => {
-  res.render('index', { projects })
-})
-
-app.get("/projects/:id", (req, res) => {
-  const project = projects.filter( project => project.id == req.params.id)
-  const name = 'james'
-  res.render('project', { project })
-})
-
-app.get("/about", (req, res) => {
-  res.render('about')
-})
-
+// create an error message if user try no navigate to a non identified resource.
 app.use((req, res, next) => {
   const err = new Error('Not Found');
   err.status = 404;
   next(err);
 })
 
+// render the error template
 app.use((err, req, res, next) => {
   res.locals.error = err;
   res.status(err.status);
