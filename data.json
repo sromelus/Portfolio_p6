@@ -3,7 +3,7 @@
     {
       "id": "1",
       "project_name": "Random Quote",
-      "description": "Random Quote is a quote genarator that randomly displays a list of 7 quotes at 25 seconds interval while also changing the background color.",
+      "description": "Random Quote is an application that randomly displays a list of 7 quotes at 25 seconds interval while also randomly changing the background color.",
       "live_link": "https://sromelus.github.io/Project_one_Ramdon_quote/",
       "github_link": "https://github.com/sromelus/Project_one_Ramdon_quote",
       "image_urls": ["/images/projects-img/P1_random_quote_550x550.png", "/images/projects-img/P1_random_quote0_1200x550.png", "/images/projects-img/P1_random_quote01_1200x550.png", "/images/projects-img/P1_random_quote02_1200x5503.png"]
@@ -11,7 +11,7 @@
     {
       "id": "2",
       "project_name": "Pagination List",
-      "description": "Pagination List that takes a long list of students and displays it in a pagination format to making it easier to browse through the list.The list is dynamically formatted upon loading to show then students profile per page based on the number of students in the list.",
+      "description": "Pagination List is an application that takes a list of students profiles and displays them in a pagination format, making it easier to browse through the list. The list is dynamically formatted upon loading to show ten students profile per page.",
       "live_link": "https://sromelus.github.io/pagination-filtering-project/",
       "github_link": "https://github.com/sromelus/pagination-filtering-project",
       "image_urls": ["/images/projects-img/P2_Pagination_List-550X550.png", "/images/projects-img/P2_Pagination_List-1200X550.png", "/images/projects-img/P2_Pagination_List0-1200X550.png", "/images/projects-img/P2_Pagination_List01-1200X550.png", "/images/projects-img/P2_Pagination_List02-1200X550.png"]
@@ -19,7 +19,7 @@
     {
       "id": "3",
       "project_name": "Interactive Form",
-      "description": "Interactive Form is mostly written in Jquery. The purpose of the form is to register users for an event. The form use Jquery to do most of the DOM manipulation. The form use Regex is to validate all inputs. The form provides feedback messages with instruction when user input or checkbox validation is wrong.",
+      "description": "Interactive Form is mostly written in Jquery. The purpose of the form is to register users for an event. The form uses Jquery to do most of the DOM manipulation. The form use Regex is to validate all inputs. The form provides feedback messages with instruction when user input or checkbox validation is wrong.",
       "live_link": "https://sromelus.github.io/Interactive_Form_Project_III/",
       "github_link": "https://github.com/sromelus/Interactive_Form_Project_III",
       "image_urls": ["/images/projects-img/P3_Interactive_form0_550X550.png", "/images/projects-img/P3_Interactive_form_550X550.png", "/images/projects-img/P3_Interactive_form_1200X550.png", "/images/projects-img/P3_Interactive_form0_1200X550.png", "/images/projects-img/P3_Interactive_form01_1200X550.png", "/images/projects-img/P3_Interactive_form02_1200X550.png"]
@@ -35,7 +35,7 @@
     {
       "id": "5",
       "project_name": "Public Api Request",
-      "description": "In this project, I used the fetch api to request 12 random employee profiles asynchonusly from the (randomuser.com api) once the server send a response. I used JavaScript and DOM manipulation to render the employee data to the browser in card tile format.",
+      "description": "Public Api Request is an application that displays a list of ramdom profiles from the ramdom user api. In this project, I used the fetch api to request 12 random profiles asynchronously from the (randomuser.com api) and I used DOM manipulation to render the employee data to the browser in card tile format. Each card can be clicked to show a modal view that displays more information about the user.",
       "live_link": "https://sromelus.github.io/public-api-request-p5",
       "github_link": "https://github.com/sromelus/public-api-request-p5",
       "image_urls": ["/images/projects-img/P5_API_request_550X550.png", "/images/projects-img/P5_API_request01_1200X550.png", "/images/projects-img/P5_API_request0_1200X550.png","/images/projects-img/P5_API_request_1200X550.png"]
