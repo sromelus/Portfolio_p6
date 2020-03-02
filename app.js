@@ -4,7 +4,7 @@ const routes = require('./routes');
 const app = express();
 
 app.set("view engine", "pug")
-app.use('/static',express.static('public'));
+app.use('/static', express.static('public'));
 
 //route to the home page `index.js`
 app.use(routes)
