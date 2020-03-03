@@ -20,6 +20,6 @@ This portfolio highlights some of the projects that I have worked on recently. C
 
 ## Style Changes
 
- 1. add background image
+ 1. added background image
  2. changed button hover state color to a dark pink
- 3. changes text color from gray to black 
+ 3. changed text color from gray to black for visibility
