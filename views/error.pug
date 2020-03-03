@@ -1,6 +1,13 @@
 extends layout.pug
 
 block content
-  h1= error.message
-  h2= error.status
-  pre= error.stack
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Back
+  .medium-text-center
+    h1= error.message + " (" + error.status + ")" 
+    p.text-light
+      | The requested URL was not found on this server.
+    p.text-light
+      | Please use the back button to navigate to the home page.
+    //- h2= error.status
+  //- pre= error.stack
