@@ -23,6 +23,10 @@ app.use((err, req, res, next) => {
   res.render('error')
 })
 
-app.listen(3000, () => {
-  console.log("The application is running on localhost:3000!")
+// set our port
+app.set('port', process.env.PORT || 3000);
+
+// start listening on our port
+const server = app.listen(app.get('port'), () => {
+  console.log(`Express server is listening on port ${server.address().port}!`);
 });
