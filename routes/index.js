@@ -12,13 +12,13 @@ router.get("/projects", (req, res) => {
 })
 
 
-router.get("/projects/:id", (req, res) => {
+router.get("/projects/:id", (req, res, next) => {
   //Checking to see if project id is in projects array, if it is render the show page otherwise, render the homepage
   const project = projects.filter( project => project.id == req.params.id)
   if (project.length > 0){
     return res.render('project', { project })
   } else {
-    res.redirect("/")
+    next();
   }
 })
 

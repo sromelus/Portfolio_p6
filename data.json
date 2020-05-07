@@ -6,6 +6,7 @@
       "description": "Random Quote is an application that randomly displays a list of 7 quotes at 25 second intervals while also randomly changing the background color.",
       "live_link": "https://sromelus.github.io/Project_one_Ramdon_quote/",
       "github_link": "https://github.com/sromelus/Project_one_Ramdon_quote",
+      "languages":[ "HTML", "CSS", "JavaScript"],
       "image_urls": ["/images/projects-img/P1_random_quote_550x550.png", "/images/projects-img/P1_random_quote0_1200x550.png", "/images/projects-img/P1_random_quote01_1200x550.png", "/images/projects-img/P1_random_quote02_1200x5503.png"]
     },
     {
@@ -14,6 +15,7 @@
       "description": "Pagination List is an application that takes a list of students profiles and displays them in a pagination format, making it easier to browse through the list. The list is dynamically formatted upon loading to show ten students profile per page.",
       "live_link": "https://sromelus.github.io/pagination-filtering-project/",
       "github_link": "https://github.com/sromelus/pagination-filtering-project",
+      "languages":[ "HTML", "CSS", "JavaScript", "JQuery"],
       "image_urls": ["/images/projects-img/P2_Pagination_List-550X550.png", "/images/projects-img/P2_Pagination_List-1200X550.png", "/images/projects-img/P2_Pagination_List0-1200X550.png", "/images/projects-img/P2_Pagination_List01-1200X550.png", "/images/projects-img/P2_Pagination_List02-1200X550.png"]
     },
     {
@@ -22,6 +24,7 @@
       "description": "Interactive Form is mostly written in Jquery. The purpose of the form is to register users for an event. The form uses Jquery to do most of the DOM manipulation. The form use Regex is to validate all inputs. The form provides feedback messages with instruction when user input or checkbox validation is wrong.",
       "live_link": "https://sromelus.github.io/Interactive_Form_Project_III/",
       "github_link": "https://github.com/sromelus/Interactive_Form_Project_III",
+      "languages":[ "HTML", "CSS", "JQuery"],
       "image_urls": ["/images/projects-img/P3_Interactive_form0_550X550.png", "/images/projects-img/P3_Interactive_form_550X550.png", "/images/projects-img/P3_Interactive_form_1200X550.png", "/images/projects-img/P3_Interactive_form0_1200X550.png", "/images/projects-img/P3_Interactive_form01_1200X550.png", "/images/projects-img/P3_Interactive_form02_1200X550.png"]
     },
     {
@@ -30,6 +33,7 @@
       "description": "Phrase Hunter is a game that allows players to guess random phrases by guessing letter each characters in the phrase.",
       "live_link": "https://sromelus.github.io/sromelus-oop_game_show_app_project_4/",
       "github_link": "https://github.com/sromelus/sromelus-oop_game_show_app_project_4",
+      "languages":[ "HTML", "CSS", "JavaScript"],
       "image_urls": ["/images/projects-img/P4_Word_Game0_550X550.png", "/images/projects-img/P4_Word_Game_1200X550.png", "/images/projects-img/P4_Word_Game0_1200X550.png", "/images/projects-img/P4_Word_Game01_1200X550.png", "/images/projects-img/P4_Word_Game02_1200X550.png"]
     },
     {
@@ -38,6 +42,7 @@
       "description": "Public Api Request is an application that displays a list of ramdom profiles from the ramdom user api. In this project, I used the fetch api to request 12 random profiles asynchronously from the (randomuser.com api) and I used DOM manipulation to render the employee data to the browser in card tile format. Each card can be clicked to show a modal view that displays more information about the user.",
       "live_link": "https://sromelus.github.io/public-api-request-p5",
       "github_link": "https://github.com/sromelus/public-api-request-p5",
+      "languages":[ "HTML", "CSS", "JavaScript"],
       "image_urls": ["/images/projects-img/P5_API_request_550X550.png", "/images/projects-img/P5_API_request01_1200X550.png", "/images/projects-img/P5_API_request0_1200X550.png","/images/projects-img/P5_API_request_1200X550.png"]
     }
   ]

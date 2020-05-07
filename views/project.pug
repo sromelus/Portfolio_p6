@@ -17,13 +17,10 @@ block content
       .cell.portfolio-meta.small-6.medium-2.large-3
         h6 Technologies
 
-        
         ul
-          li HTML
-          li CSS
-          li JavaScript
+          each language in project[0].languages
+            li= language
 
-        
         a.button.expanded(href=`${project[0].live_link}` target='_blank') Live Demo
         a.button.expanded(href=`${project[0].github_link}` target='_blank') GitHub Repo
     
