@@ -443,8 +443,10 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background: rgba(235, 235, 235, 0.9);
-  background-image: url('https://image.freepik.com/free-vector/abstract-geometric-shape-connection-with-3d-cubes-background_42705-105.jpg');
+  background-color: #b3bfcd;
+  /* background: rgba(235, 235, 235, 0.9); */
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)); */
+  /* background-image: url('https://image.freepik.com/free-vector/abstract-geometric-shape-connection-with-3d-cubes-background_42705-105.jpg'); */
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   line-height: 1.5;
