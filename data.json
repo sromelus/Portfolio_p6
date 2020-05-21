@@ -3,7 +3,7 @@
     {
       "id": "1",
       "project_name": "Courses Libray",
-      "description": "Courses Libray is React application that displays a list of courses from the courses-api-library which is an api that I created to serve this application with the courses data. Any user can see all available courses. A signed in user can add a course. A signed in user can only update and delete courses that they own.",
+      "description": "Courses Libray is React application that displays a list of courses from the courses-api-library. The courses-api-library is a web api that I created to serve this project with the courses data.",
       "live_link": "https://sromelus.github.io/courses-portal/#/",
       "github_link": "https://github.com/sromelus/courses-portal",
       "languages":[ "MongoDB", "Express", "React", "Node"],
