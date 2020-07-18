@@ -128,7 +128,7 @@ a:hover {
 }
 
   .portfolio-index .thumbnail{
-    margin-bottom: 5px;
+    margin-bottom: 10px;
   }
 
   .portfolio-index a{
@@ -164,6 +164,20 @@ a:hover {
     line-height: 25px;
 }
 
-.thumbnail {
+.thumbnail{
   border-radius: 5%;
+}
+
+.project-small-card {
+  box-shadow: 8px 8px #999;
+  opacity: 0.8;
+}
+
+.project-small-card:hover {
+  opacity: 1;
+}
+
+.project-small-card:active {
+  box-shadow: 7px 5px #666;
+  transform: translateY(3px);
 }

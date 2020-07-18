@@ -3,10 +3,10 @@
     {
       "id": "1",
       "project_name": "Tax Tracker",
-      "description": "Tax Tracker is a web application that I created while attending a coding bootcamp. Its main objective is to help contract workers like Uber and Lyft to track their mileage, expenses and taxes.",
+      "description": "Tax Tracker is a web application that I created while attending a coding bootcamp. Its main objective is to help contract workers like Uber and Lyft track their mileages, expenses and taxes. To build this project I used figma to create the wireframing/prototype, then based on the figma prototype I created the template with HTML and CSS, and finally I used the template the help me create the vue for each react components.",
       "live_link": "https://taxtraker.herokuapp.com/",
       "github_link": "https://github.com/sromelus/tax_tracker",
-      "languages":[ "Rails", "Postgres", "React", "CarrierWave"],
+      "languages":[ "Rails", "Postgres", "React", "CarrierWave", "figma"],
       "image_urls": ["/images/projects-img/tax_traker03.png", "/images/projects-img/tax_traker03.png", "/images/projects-img/tax_traker01.png", "/images/projects-img/tax_traker02.png", "/images/projects-img/tax_traker04.png"]
     },
     {
