@@ -12,7 +12,7 @@
     {
       "id": "2",
       "project_name": "Courses Libray",
-      "description": "Courses Libray is a React application that displays a list of courses from the courses-api-library. The courses-api-library is a web api that I created to serve this project with the courses data.",
+      "description": "Courses Libray is a React application that manages and displays a list of courses from an api. The api is built with Express and MongoDB and it allows users to create, update and delete courses. On the client unauthenticated users can see all listed courses but they can't add or edit any course but once users are authenticated they can create, update and delete any course they have created.",
       "live_link": "https://sromelus.github.io/courses-portal/#/",
       "github_link": "https://github.com/sromelus/courses-portal",
       "languages":[ "MongoDB", "Express", "React", "Node"],
@@ -20,12 +20,12 @@
     },
     {
       "id": "3",
-      "project_name": "Random Quote",
-      "description": "Random Quote is an application that randomly displays a list of 7 quotes at 25 seconds interval while also randomly changing the background color.",
-      "live_link": "https://sromelus.github.io/Project_one_Ramdon_quote/",
-      "github_link": "https://github.com/sromelus/Project_one_Ramdon_quote",
+      "project_name": "Public Api Request",
+      "description": "Public Api Request is an application that displays a list of random profiles from the random user api. In this project, I used the fetch api to request 12 random profiles asynchronously from the (randomuser.com api) and I used DOM manipulation to render the employee data to the browser in card tile format. Each card can be clicked to show a modal view that displays more information about the user.",
+      "live_link": "https://sromelus.github.io/public-api-request-p5",
+      "github_link": "https://github.com/sromelus/public-api-request-p5",
       "languages":[ "HTML", "CSS", "JavaScript"],
-      "image_urls": ["/images/projects-img/P1_random_quote_550x550.png", "/images/projects-img/P1_random_quote0_1200x550.png", "/images/projects-img/P1_random_quote01_1200x550.png", "/images/projects-img/P1_random_quote02_1200x5503.png"]
+      "image_urls": ["/images/projects-img/P5_API_request_550X550.png", "/images/projects-img/P5_API_request01_1200X550.png", "/images/projects-img/P5_API_request0_1200X550.png","/images/projects-img/P5_API_request_1200X550.png"]
     },
     {
       "id": "4",
@@ -56,12 +56,12 @@
     },
     {
       "id": "7",
-      "project_name": "Public Api Request",
-      "description": "Public Api Request is an application that displays a list of random profiles from the random user api. In this project, I used the fetch api to request 12 random profiles asynchronously from the (randomuser.com api) and I used DOM manipulation to render the employee data to the browser in card tile format. Each card can be clicked to show a modal view that displays more information about the user.",
-      "live_link": "https://sromelus.github.io/public-api-request-p5",
-      "github_link": "https://github.com/sromelus/public-api-request-p5",
+      "project_name": "Random Quote",
+      "description": "Random Quote is an application that randomly displays a list of 7 quotes at 25 seconds interval while also randomly changing the background color.",
+      "live_link": "https://sromelus.github.io/Project_one_Ramdon_quote/",
+      "github_link": "https://github.com/sromelus/Project_one_Ramdon_quote",
       "languages":[ "HTML", "CSS", "JavaScript"],
-      "image_urls": ["/images/projects-img/P5_API_request_550X550.png", "/images/projects-img/P5_API_request01_1200X550.png", "/images/projects-img/P5_API_request0_1200X550.png","/images/projects-img/P5_API_request_1200X550.png"]
+      "image_urls": ["/images/projects-img/P1_random_quote_550x550.png", "/images/projects-img/P1_random_quote0_1200x550.png", "/images/projects-img/P1_random_quote01_1200x550.png", "/images/projects-img/P1_random_quote02_1200x5503.png"]
     }
   ]
 }

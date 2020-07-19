@@ -164,17 +164,24 @@ a:hover {
     line-height: 25px;
 }
 
+
 .thumbnail{
   border-radius: 5%;
 }
 
 .project-small-card {
+  width: 250px;
+  height: 170px;
   box-shadow: 8px 8px #999;
   opacity: 0.8;
+  transition: 0.5s;
 }
 
 .project-small-card:hover {
   opacity: 1;
+  width: 260px;
+  height: 180px;
+  border-radius: 0;
 }
 
 .project-small-card:active {

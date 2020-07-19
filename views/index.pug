@@ -7,7 +7,7 @@ block content
       h1 Projects
 
       p.lead.text-light
-        | Hi, my name is Shardly Romelus. I am a full stack web developer. I invite you to take a look below at some of the projects
+        | Hi, my name is Shardly P. Romelus. I am a Full Stack Web Developer. I invite you to take a look below at some of the projects
         | that I have built. Thank you for taking the time to look through my portfolio.</br>
         a(href='/about').about  More About Me →
   article.grid-container.portfolio-index
@@ -17,6 +17,6 @@ block content
       each project in projects
         .cell
             a(href=`/projects/${project.id}`)
-              img.thumbnail.project-small-card( style='width: 250px; height: 170px;' src=`/static/${project.image_urls[0]}`)
+              img.thumbnail.project-small-card(src=`/static/${project.image_urls[0]}`)
               h5= project.project_name
       

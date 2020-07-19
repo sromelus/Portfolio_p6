@@ -1,4 +1,4 @@
 node_modules/
 example-html
 mockups
-.DS_Store
+**/.DS_Store
