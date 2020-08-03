@@ -137,6 +137,7 @@ a:hover {
 
   .portfolio-index .cell{
     margin-bottom: 15px;
+    transition: 0.5s;
   }
 
     .portfolio-index .cell h5{
@@ -181,7 +182,10 @@ a:hover {
   opacity: 1;
   width: 260px;
   height: 180px;
-  border-radius: 0;
+}
+
+.portfolio-index .cell:hover{
+  margin-bottom: 0;
 }
 
 .project-small-card:active {
