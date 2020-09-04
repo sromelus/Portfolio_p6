@@ -3,7 +3,7 @@
     {
       "id": "1",
       "project_name": "Tax Tracker",
-      "description": "Tax Tracker is a web application that I created while attending a coding bootcamp. Its main objective is to help contract workers like Uber and Lyft track their mileages, expenses and taxes. To build this project I used figma to create the wireframing/prototype, then based on the figma prototype I created the template with HTML and CSS, and finally I used the template the help me create the vue for each react components.",
+      "description": "Tax Tracker is a web application that I created while attending a coding bootcamp. Its main objective is to help contract workers like Uber and Lyft drivers track their mileage, expenses and taxes. To build this project I used figma to create the wireframing/prototype, then based on the figma prototype I created the template with HTML and CSS, and finally I used the template to help me write the code for each React component.",
       "live_link": "https://taxtraker.herokuapp.com/",
       "github_link": "https://github.com/sromelus/tax_tracker",
       "languages":[ "Rails", "Postgres", "React", "CarrierWave", "figma"],
@@ -11,8 +11,8 @@
     },
     {
       "id": "2",
-      "project_name": "Courses Libray",
-      "description": "Courses Libray is a React application that manages and displays a list of courses from an api. The api is built with Express and MongoDB and it allows users to create, update and delete courses. On the client unauthenticated users can see all listed courses but they can't add or edit any course but once users are authenticated they can create, update and delete any course they have created.",
+      "project_name": "Courses Portal",
+      "description": "Courses Library is a React application that manages and displays a list of courses from an api. The api is built with Express and MongoDB and it allows users to create, update and delete courses. On the client, unauthenticated users can see all listed courses but they can't add or edit any course. Once users are authenticated they can create, update and delete any course they have created.",
       "live_link": "https://sromelus.github.io/courses-portal/#/",
       "github_link": "https://github.com/sromelus/courses-portal",
       "languages":[ "MongoDB", "Express", "React", "Node"],
@@ -39,7 +39,7 @@
     {
       "id": "5",
       "project_name": "Interactive Form",
-      "description": "Interactive Form is mostly written in Jquery. The purpose of the form is to register users for an event. The form uses Jquery to do most of the DOM manipulation. The form use Regex is to validate all inputs. The form provides feedback messages with instruction when user input or is invalid.",
+      "description": "Interactive Form is mostly written in Jquery. The purpose of the form is to register users for an event. The form uses Jquery to do most of the DOM manipulation. The form uses Regex is to validate all inputs. The form provides feedback messages with instruction when user input or is invalid.",
       "live_link": "https://sromelus.github.io/Interactive_Form_Project_III/",
       "github_link": "https://github.com/sromelus/Interactive_Form_Project_III",
       "languages":[ "HTML", "CSS", "JQuery"],
