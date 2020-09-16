@@ -37,6 +37,9 @@ h1,h2,h3,h4,h5,p{
 .button {
   background-color: #333;
   border-radius: 20px;
+}
+
+.resume-button {
   animation: marginbulger 3s infinite;
 }
 
