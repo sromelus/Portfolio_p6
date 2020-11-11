@@ -1,5 +1,6 @@
 const express = require('express');
 // import index.js in routes folder
+
 const routes = require('./routes');
 const app = express();
 
@@ -7,7 +8,7 @@ app.set("view engine", "pug")
 app.use('/static', express.static('public'));
 
 //route to the home page `index.js`
-app.use(routes)
+app.use(routes);
 
 // create an error message if user try no navigate to a non identified resource.
 app.use((req, res, next) => {
@@ -25,7 +26,7 @@ app.use((err, req, res, next) => {
 })
 
 // set our port
-app.set('port', process.env.PORT || 3000);
+app.set('port', process.env.PORT || 3001);
 
 // start listening on our port
 const server = app.listen(app.get('port'), () => {

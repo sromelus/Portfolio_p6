@@ -22,8 +22,8 @@ block content
             li= language
 
         a.button.expanded(href=`${project[0].live_link}` target='_blank') Live Demo
-        a.button.expanded(href=`${project[0].github_link}` target='_blank') GitHub Repo
-    
+        if(project[0].github_link.length)
+          a.button.expanded(href=`${project[0].github_link}` target='_blank') GitHub Repo
      
     img.image(src=`/static/${project[0].image_urls[1]}`)
     img.image(src=`/static/${project[0].image_urls[2]}`)

@@ -11,6 +11,15 @@
     },
     {
       "id": "2",
+      "project_name": "Atten-x Project",
+      "description": "This is a front end product that I built for my current employer, Attention Exchange inc. This product allows platform users to vote on brands that they have a potential interest in.",
+      "live_link": "https://atten-x.com/carousel.php",
+      "github_link": "",
+      "languages":[ "Php", "Jquery", "Mysql"],
+      "image_urls": ["/images/projects-img/atten-x_img_01.png", "/images/projects-img/atten-x_img_01.png", "/images/projects-img/atten-x_img_02.png", "/images/projects-img/atten-x_img_05.png"]
+    },
+    {
+      "id": "3",
       "project_name": "Courses Portal",
       "description": "Courses Library is a React application that manages and displays a list of courses from an api. The api is built with Express and MongoDB and it allows users to create, update and delete courses. On the client, unauthenticated users can see all listed courses but they can't add or edit any course. Once users are authenticated they can create, update and delete any course they have created.",
       "live_link": "https://sromelus.github.io/courses-portal/#/",
@@ -19,7 +28,16 @@
       "image_urls": ["/images/projects-img/courses_lib_550x550.png", "/images/projects-img/courses_lib01_550x550.png", "/images/projects-img/courses_lib04_550x550.png", "/images/projects-img/courses_lib05_550x550.png", "/images/projects-img/courses_lib07_550x550.png"]
     },
     {
-      "id": "3",
+      "id": "4",
+      "project_name": "The Weather Today",
+      "description": "This is an application that display the current weather for nine major cities in the U.S. You can also can look up the weather for any city around the world. The application is powered by a third party api - weatherapi.com",
+      "live_link": "https://sromelus.github.io/the-weather-today",
+      "github_link": "https://github.com/sromelus/the-weather-today",
+      "languages":[ "HTML", "CSS", "React"],
+      "image_urls": ["/images/projects-img/weather_app_img01.png", "/images/projects-img/weather_app_img01.png", "/images/projects-img/weather_app_img02.png","/images/projects-img/weather_app_img03.png"]
+    },
+    {
+      "id": "5",
       "project_name": "Public Api Request",
       "description": "Public Api Request is an application that displays a list of random profiles from the random user api. In this project, I used the fetch api to request 12 random profiles asynchronously from the (randomuser.com api) and I used DOM manipulation to render the employee data to the browser in card tile format. Each card can be clicked to show a modal view that displays more information about the user.",
       "live_link": "https://sromelus.github.io/public-api-request-p5",
@@ -28,7 +46,7 @@
       "image_urls": ["/images/projects-img/P5_API_request_550X550.png", "/images/projects-img/P5_API_request01_1200X550.png", "/images/projects-img/P5_API_request0_1200X550.png","/images/projects-img/P5_API_request_1200X550.png"]
     },
     {
-      "id": "4",
+      "id": "6",
       "project_name": "Pagination List",
       "description": "Pagination List is an application that takes a list of students’ profiles and displays them in a pagination format, making it easier to browse through the list. The list is dynamically formatted upon loading to show ten students profile per page.",
       "live_link": "https://sromelus.github.io/pagination-filtering-project/",
@@ -37,7 +55,7 @@
       "image_urls": ["/images/projects-img/P2_Pagination_List-550X550.png", "/images/projects-img/P2_Pagination_List-1200X550.png", "/images/projects-img/P2_Pagination_List0-1200X550.png", "/images/projects-img/P2_Pagination_List01-1200X550.png", "/images/projects-img/P2_Pagination_List02-1200X550.png"]
     },
     {
-      "id": "5",
+      "id": "7",
       "project_name": "Interactive Form",
       "description": "Interactive Form is mostly written in Jquery. The purpose of the form is to register users for an event. The form uses Jquery to do most of the DOM manipulation. The form uses Regex is to validate all inputs. The form provides feedback messages with instruction when user input or is invalid.",
       "live_link": "https://sromelus.github.io/Interactive_Form_Project_III/",
@@ -46,7 +64,7 @@
       "image_urls": ["/images/projects-img/P3_Interactive_form0_550X550.png", "/images/projects-img/P3_Interactive_form_550X550.png", "/images/projects-img/P3_Interactive_form_1200X550.png", "/images/projects-img/P3_Interactive_form0_1200X550.png", "/images/projects-img/P3_Interactive_form01_1200X550.png", "/images/projects-img/P3_Interactive_form02_1200X550.png"]
     },
     {
-      "id": "6",
+      "id": "8",
       "project_name": "Word Game",
       "description": "Phrase Hunter is a game that allows players to guess random phrases by guessing letter each character in the phrase.",
       "live_link": "https://sromelus.github.io/sromelus-oop_game_show_app_project_4/",
@@ -55,7 +73,7 @@
       "image_urls": ["/images/projects-img/P4_Word_Game0_550X550.png", "/images/projects-img/P4_Word_Game_1200X550.png", "/images/projects-img/P4_Word_Game0_1200X550.png", "/images/projects-img/P4_Word_Game01_1200X550.png", "/images/projects-img/P4_Word_Game02_1200X550.png"]
     },
     {
-      "id": "7",
+      "id": "9",
       "project_name": "Random Quote",
       "description": "Random Quote is an application that randomly displays a list of 7 quotes at 25 seconds interval while also randomly changing the background color.",
       "live_link": "https://sromelus.github.io/Project_one_Ramdon_quote/",

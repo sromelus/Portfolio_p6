@@ -8,6 +8,17 @@ html(class="no-js" lang="en" dir="ltr")
     link(href='https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700,800', rel='stylesheet')
     link(rel='stylesheet', href='/static/css/foundation.css')
     link(rel='stylesheet', href='/static/css/style.css')
+    //- Hotjar Tracking Code for https://shardlyromelus.herokuapp.com/projects
+    script.
+      (function(h,o,t,j,a,r){
+      h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+      h._hjSettings={hjid:2091070,hjsv:6};
+      a=o.getElementsByTagName('head')[0];
+      r=o.createElement('script');r.async=1;
+      r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+      a.appendChild(r);
+      })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+      
   body
     #my-info.off-canvas.position-left.reveal-for-large.portfolio-me(data-off-canvas='')
       .grid-y.grid-padding-x(style='height: 100%;')
