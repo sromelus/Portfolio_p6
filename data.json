@@ -38,8 +38,8 @@
     },
     {
       "id": "5",
-      "project_name": "Public Api Request",
-      "description": "Public Api Request is an application that displays a list of random profiles from the random user api. In this project, I used the fetch api to request 12 random profiles asynchronously from the (randomuser.com api) and I used DOM manipulation to render the employee data to the browser in card tile format. Each card can be clicked to show a modal view that displays more information about the user.",
+      "project_name": "Employee Directory Mockup",
+      "description": "This is an application that displays a list of random profiles from the random user api. In this project, I used the fetch api to request 12 random profiles asynchronously from the (randomuser.com api) and I used DOM manipulation to render the employee data to the browser in card tile format. Each card can be clicked to show a modal view that displays more information about the user.",
       "live_link": "https://sromelus.github.io/public-api-request-p5",
       "github_link": "https://github.com/sromelus/public-api-request-p5",
       "languages":[ "HTML", "CSS", "JavaScript"],
