@@ -11,6 +11,7 @@ router.get('/', (req, res) => {
       console.log(err);
     }
   });
+  console.log(data);
   res.redirect('/projects');
 });
 
