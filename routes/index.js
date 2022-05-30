@@ -5,8 +5,12 @@ const router = express.Router();
 
 router.get('/', (req, res) => {
   const date = new Date().toUTCString();
-  const data = `${date} - IP ADDRESS: ${req.ip}`;
-  fs.writeFileSync('log.txt', data);
+  const data = `\n${date} - IP ADDRESS: ${req.ip}`;
+  fs.appendFile('log.txt', data, (err) => {
+    if (err) {
+      console.log(err);
+    }
+  });
   res.redirect('/projects');
 });
 
